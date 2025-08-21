@@ -1,0 +1,10 @@
+@import "tailwindcss";
+:root {
+  --color-primary: #1E5AFF;
+  --color-secondary: #EAF2FF;
+  --color-accent: #FF6B6B;
+  --color-text: #1F2937;
+  --color-background: #FFFFFF;
+}
+.bg-noise { background-color: rgba(0, 0, 0, 0.03); }
+.bg-pattern { background-image: radial-gradient(currentColor 1px, transparent 1px); background-size: 20px 20px; opacity: 0.08; }
