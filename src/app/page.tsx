@@ -1,11 +1,9 @@
 "use client";
-import Image from 'next/image';
 import ContentTextbox from '@/components/textbox/ContentTextbox';
 import MomoCoinAbout from '@/components/sections/layouts/about/Momocoinabout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/HowToBuy3D';
 import Tokenomics from '@/components/sections/layouts/tokenomics/Tokenomics';
 import PepeHero from '@/components/sections/layouts/hero/PepeHero';
-import { LucideIcon } from 'lucide-react';
 
 const heroStyle = {
   section: { className: 'relative flex items-center justify-center h-screen', backgroundColor: '#FFFFFF' },
@@ -28,25 +26,16 @@ export default function Home() {
         >
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="flex items-center p-6 bg-blue-100 rounded-lg shadow-md">
-              <LucideIcon name="star" />
-              <div className="ml-4">
-                <h3 className="font-semibold">Feature 1</h3>
-                <p className="text-sm">Short description of feature 1.</p>
-              </div>
+              <h3 className="font-semibold">Feature 1</h3>
+              <p className="text-sm">Short description of feature 1.</p>
             </div>
             <div className="flex items-center p-6 bg-blue-100 rounded-lg shadow-md">
-              <LucideIcon name="star" />
-              <div className="ml-4">
-                <h3 className="font-semibold">Feature 2</h3>
-                <p className="text-sm">Short description of feature 2.</p>
-              </div>
+              <h3 className="font-semibold">Feature 2</h3>
+              <p className="text-sm">Short description of feature 2.</p>
             </div>
             <div className="flex items-center p-6 bg-blue-100 rounded-lg shadow-md">
-              <LucideIcon name="star" />
-              <div className="ml-4">
-                <h3 className="font-semibold">Feature 3</h3>
-                <p className="text-sm">Short description of feature 3.</p>
-              </div>
+              <h3 className="font-semibold">Feature 3</h3>
+              <p className="text-sm">Short description of feature 3.</p>
             </div>
           </div>
         </ContentTextbox>
